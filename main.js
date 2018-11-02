@@ -33,9 +33,5 @@ require(['avalon', "domReady!"], function() {//第二块，添加根VM（处理�
     require(['./modules/aaa/aaa'], function() {//第三块，加载其他模块
         avalon.log("加载其他完毕")
     });
-
-    require(['./modules/test/test'], function () {
-        avalon.log("加载test完毕")
-    });
     
 });
