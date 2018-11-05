@@ -5,9 +5,52 @@
     <meta name="viewport" content="width=device-width">
     <title>VM</title>
     <script src="../../vendor/avalon/avalon.js"></script>
+<<<<<<< HEAD
 
 </head>
 <body ms-controller="test">
 
+=======
+    <script>
+        avalon.define({
+            $id:"test",
+            aaa:{
+                xxx:"444",
+                yyy:"555"
+            },
+            bbb:"yyy",
+            zzz:"text"
+        })
+    </script>
+</head>
+<body class="ms-controller" ms-controller="test">
+    <input ms-duplex="aaa['xxx']"><br/>
+    <input ms-duplex="aaa[bbb]"><br/>
+    <input ms-duplex="zzz" ms-data-duplex-observe="zzz"/>当为false，就进制双向同步
+    <p>{{aaa.xxx}}</p>
+    <p>{{aaa.yyy}}</p>
+    <p>{{zzz}}</p>
+>>>>>>> e9021f65868e9b6a8ddf326d06d94c3b004f1b10
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
