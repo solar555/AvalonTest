@@ -1,7 +1,15 @@
 /**
- * Created by Asa on 2018/11/1.
+ * Created by Administrator on 2018/11/5.
  */
-
-avalon.define("test",function (vm) {
-    vm.aaa = "Asa"
+var vmodel = avalon.define({
+    $id:"test",
+    aaa:111,
+    bbb:222,
 })
+vmodel.$watch("$all", function () {
+    avalon.log(avalon.slice(arguments))
+})
+setTimeout(function () {
+    vmodel.aaa = 2
+    vmodel.bbb = 3
+}, 1000)
