@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1b6c4f9-5e38-4741-9566-bd599a9f278f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/avalon/avalon.testui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/test/test.html" afterPath="$PROJECT_DIR$/modules/test/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/test/test.js" afterPath="$PROJECT_DIR$/modules/test/test.js" />
-    </list>
+    <list default="true" id="f1b6c4f9-5e38-4741-9566-bd599a9f278f" name="Default" comment="" />
     <ignored path="AvalonTest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -31,8 +26,8 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/test/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="200">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -368,12 +363,12 @@
       <updated>1541072250747</updated>
       <workItem from="1541072253428" duration="3251000" />
       <workItem from="1541129478325" duration="12888000" />
-      <workItem from="1541379225446" duration="12384000" />
+      <workItem from="1541379225446" duration="12607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28523000" />
+    <option name="totallyTimeSpent" value="28746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="988" y="0" width="932" height="1040" extended-state="0" />
@@ -591,8 +586,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/test/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="200">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
         </state>
       </provider>
