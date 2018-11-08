@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>repeat getIndex() key val</title>
+    <script src="../../vendor/avalon/avalon.js"></script>
+    <script>
+        var index = 0
+        var model = avalon.define({
+            $id:"test",
+            data:{
+                aaa:1111,
+                bbb:2222,
+                ccc:3333,
+                ddd:4444
+            },
+            getIndex:function () {
+                return index++
+            }
+        })
+    </script>
+</head>
+<body ms-controller="test">
+    <ul>
+        <li ms-repeat="data">{{getIndex()}}、{{$key}}--{{$val}}</li>
+    </ul>
+</body>
+</html>

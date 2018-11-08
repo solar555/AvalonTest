@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ms-duplex input and select</title>
+    <script src="../../vendor/avalon/avalon.js"></script>
+    <script>
+        avalon.define({
+            $id: "fruit",
+            options: ["aaa","苹果", "香蕉", "桃子", "雪梨", "葡萄", "哈蜜瓜", "橙子", "火龙果", "荔技", "黄皮"],
+            selected: "桃子"
+        })
+    </script>
+</head>
+<body ms-controller="fruit">
+<h3>文本域与下拉框的联动<br/>联动条件：复制文本到文本框，或使用英文输入法输入文本（仅英文）才能联动选择框。</h3>
+<input  ms-duplex="selected" />
+<select ms-duplex="selected" >
+    <option ms-repeat-option="options" ms-value="option" >{{option}}</option>
+</select>
+</body>
+</html>
